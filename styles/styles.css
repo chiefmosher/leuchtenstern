@@ -1,0 +1,38 @@
+/* Breakpoints 480, 800, 1024 und 1280 Pixel */
+
+/* Variablen deklarieren */
+:root {
+
+	--VG-Farbe: darkblue; /* Vordergrund-Hauptfarbe */ 
+	--HG-Farbe: white; /* Hintergrund-Hauptfarbe */
+}
+
+/* Definition von Originaltags */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	background-position: center center;
+	overflow-x: hidden;
+}
+
+h1 {
+	color: var(--VG-Grundfarbe);
+	font-size: 20pt;
+	margin: 2px
+}
+
+h2 {
+	color: var(--VG-Grundfarbe);
+	font-size: 18pt;
+	margin: 2px
+}
+
+h3 {
+	color: var(--VG-Grundfarbe);
+	font-size: 16pt;
+	margin: 2px;
+}
+
+p {
+	text-align: left;
+}
